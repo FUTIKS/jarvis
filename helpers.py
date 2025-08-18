@@ -30,7 +30,7 @@ def cpu() -> None:
     battery = psutil.sensors_battery()
     speak("battery is at")
     speak(battery.percent)
-
+ 
 def joke() -> None:
     for i in range(5):
         speak(pyjokes.get_jokes()[i])
