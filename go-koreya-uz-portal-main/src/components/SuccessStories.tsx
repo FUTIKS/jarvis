@@ -216,7 +216,7 @@ const SuccessStories = () => {
         </div>
       </div>
 
-      <style jsx>{`
+      <style>{`
         /* O'ngga aylanish uchun animatsiya */
         @keyframes scroll-left {
           0% {
