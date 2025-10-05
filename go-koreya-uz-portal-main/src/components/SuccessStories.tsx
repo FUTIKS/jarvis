@@ -13,109 +13,109 @@ const truncateText = (text, maxLength) => {
 const storiesData = [
   {
     name: 'Akhtamov Islom',
-    university: 'Seoul National University',
+    university: 'Woosuk university',
     imageUrl: '/images/students/akhtamov_islom.jpg',
     review: "Akhtamov Islom Seul Milliy Universitetining magistratura bosqichiga muvaffaqiyatli qabul qilindi. Uning qat'iyati va akademik yutuqlari bu muhim qadamning garovi bo'ldi. Ishonamizki, Osiyoning yetakchi oliygohlaridan birida olingan tajriba uning oldida yangi ufqlar ochadi."
   },
   {
     name: 'Akramov Artur',
-    university: 'Yonsei University',
+    university: 'Woosuk university',
     imageUrl: '/images/students/akramov_artur.jpg',
     review: "Akramov Artuming Yonsei Universiteti magistraturasiga qabul qilinganligi bilan faxrlanamiz. Bu uning astoydil mehnati va yuqori sifatli xalqaro taʼlim olishga intilishining dalilidir. Uning hikoyasi Koreyada o'qishni orzu qilayotgan bo'lajak abituriyentlar uchun ilhomlantiruvchi namuna bo'lib xizmat qiladi."
   },
   {
     name: 'Karimova Mushtariy',
-    university: 'KAIST',
+    university: 'Woosuk university',
     imageUrl: '/images/students/karimova_mushtariy.jpg',
     review: "Karimova Mushtariy dunyoning eng innovatsion universitetlaridan biri bo'lgan KAIST'ga (Korea Advanced Institute of Science and Technology) qabul qilinib, o'zining ajoyib qobiliyatlarini namoyish etdi. Uning KAIST magistraturasiga qabul qilinishi, sabr-toqat bilan eng ulkan maqsadlarga ham erishish mumkinligini tasdiqlaydi. Unga samarali ilmiy-tadqiqot ishlarida muvaffaqiyatlar tilaymiz."
   },
   {
     name: 'Khayitov Mirzakhidjon',
-    university: 'Korea University',
+    university: 'Woosuk university',
     imageUrl: '/images/students/khayitov_mirzokhidjon.jpg',
     review: "Хайитов Мирзахиджоннинг Korea University magistraturasiga qabul qilinishi uning akademik salohiyatining yorqin ko‘rsatkichidir. Uning o‘z ta’limini davom ettirish uchun shunday nufuzli o‘quv dargohini tanlaganidan mamnunmiz. Bu qadam, shubhasiz, uning kasbiy va shaxsiy rivojlanishini boyitadi."
   },
   {
     name: 'Khodjiev Uktam',
-    university: 'Hanyang University',
+    university: 'Woosuk university',
     imageUrl: '/images/students/khodjiev_uktam.jpg',
     review: "Khodjiev Uktam Hanyang University magistraturasiga muvaffaqiyatli kirdi. Uning g‘ayrati va kelajakdagi aniq maqsadlari unga bu muhim niyatga erishishga yordam berdi. Hanyang University o‘zining kuchli dasturlari bilan mashhur va Uktam tanlagan sohasida muvaffaqiyat qozonishiga ishonamiz."
   },
   {
     name: 'Khudoev Akhtam',
-    university: 'Sungkyunkwan University',
+    university: 'Woosuk university',
     imageUrl: '/images/students/khudoev_akhtam.jpg',
     review: "Худоев Актам Sungkyunkwan University magistraturasiga qabul qilinib, ta’sirchan natijaga erishdi. Bu yutuq uning eng yuqori akademik darajada ta’lim olishga tayyorligini ta’kidlaydi. Актамга yangi o‘quv yurtida muvaffaqiyatli moslashish va chuqur bilim olishini tilaymiz."
   },
   {
     name: 'Kirg\'izov Azizjon',
-    university: 'Ewha Womans University',
+    university: 'Woosuk university',
     imageUrl: '/images/students/kirgizov_azizjon.jpg',
     review: "Kirg'izov Azizjonni Ewha Womans University'ga qabul qilinishi bilan tabriklaymiz. Ushbu nufuzli ta'lim muassasasi unga rivojlanish va ixtisoslashish uchun noyob imkoniyatlar yaratadi. Uning misoli orzuga erishish qat'iyat va puxta tayyorgarlik orqali amalga oshishini ko'rsatadi."
   },
   {
     name: 'Nazirjonov Izzatilla',
-    university: 'Pohang University',
+    university: 'Woosuk university',
     imageUrl: '/images/students/nazirjanov_izzatilla.jpg',
     review: "Nazirjonov Izzatilla Pohang University of Science and Technology (POSTECH) magistraturasiga muvaffaqiyatli o'tdi. Koreyaning yetakchi ilmiy-texnik universitetlaridan birini tanlashi uning jiddiy akademik ambitsiyalaridan dalolat beradi. Unga tadqiqot faoliyatida muvaffaqiyatlar tilaymiz."
   },
   {
     name: 'Obidov Abdulaziz',
-    university: 'Kyung Hee University',
+    university: 'Woosuk university',
     imageUrl: '/images/students/obidov_abdulaziz.jpg',
     review: "Obidov Abdulaziz Kyung Hee University magistratura bosqichiga muvaffaqiyatli qabul qilindi. Bu universitet o'zining xalqaro yondashuvi va sifatli ta'limi bilan mashhur. Ishonamizki, Abdulaziz yangi akademik muhitda o'z salohiyatini to'liq ro'yobga chiqaradi."
   },
   {
     name: 'Parmonov Ilkhom',
-    university: 'Sogang University',
+    university: 'Woosuk university',
     imageUrl: '/images/students/parmonov_ilkhom.jpg',
     review: "Parmonov Ilkhom Sogang University magistraturasiga qabul qilinib, katta muvaffaqiyatga erishdi. Bu chuqur bilim va tanqidiy fikrlashni rivojlantirishga intiluvchilar uchun ajoyib tanlovdir. Uning Koreyaning eng yaxshi universitetlaridan birining talabalari qatorida ekanligidan xursandmiz."
   },
   {
     name: 'Rashidov Mukhammadali',
-    university: 'Chung-Ang University',
+    university: 'Woosuk university',
     imageUrl: '/images/students/rashidov_mukhammadali.jpg',
     review: "Rashidov Muhammadali Chung-Ang University magistranti bo'ldi. Uning ushbu universitetga kirishi uning tinimsiz mehnati va xalqaro tajriba orttirishga intilishining natijasidir. Unga muvaffaqiyatli o'qish va yorqin kelajak tilaymiz."
   },
   {
     name: 'Sadullaev Erkinjon',
-    university: 'Konkuk University',
+    university: 'Woosuk university',
     imageUrl: '/images/students/sadullaev_erkinjon.jpg',
     review: "Садуллаев Эркинжон Konkuk University magistraturasiga muvaffaqiyatli qabul qilindi. Uning qat’iyati va o‘qishga bo‘lgan ishtiyoqi natijasida erishilgan bu yutuq uning akademik yo‘lidagi muhim bosqichdir. Yangi bilim va tajribalar sari olg‘a!"
   },
   {
     name: 'Sayfullaev Abdulla',
-    university: 'Dongguk University',
+    university: 'Woosuk university',
     imageUrl: '/images/students/sayfullaev_abdulla.jpg',
     review: "Sayfullaev Abdulla Dongguk University magistraturasiga qabul qilindi. Bu uning akademik mukammallikka intilishini va Koreyada ta'lim olish istagini namoyon etadi. Uning kelajakdagi o'qishlarida katta muvaffaqiyatlar tilaymiz."
   },
   {
     name: 'Sultonov Ulug\'bek',
-    university: 'Inha University',
+    university: 'Woosuk university',
     imageUrl: '/images/students/sultonov_ulugbek.jpg',
     review: "Султонов Улуғбек Inha University (Inha University in Tashkentning asosiy universiteti) magistraturasiga qabul qilindi. Bu uning ulkan ambitsiyalari va sifatli xalqaro ta'limga bo'lgan intilishining yana bir tasdig'idir. Улуғбекка kelgusi o'qishlarida omad tilaymiz!"
   },
   {
     name: 'Toshkentboev Shakhzodbek',
-    university: 'Ajou University',
+    university: 'Woosuk university',
     imageUrl: '/images/students/toshkentboev_shakhzodbek.jpg',
     review: "Toshkentboev Shakhzodbek Ajou University magistraturasiga qabul qilinib, o'zining qat'iyatliligini isbotladi. Ushbu universitet unga chuqur bilim va tadqiqot imkoniyatlarini taqdim etadi. Шаҳзодбекка kelgusi ilmiy faoliyatida yorqin yutuqlar tilaymiz."
   },
   {
     name: 'Usupjonov Saidbek',
-    university: 'Gachon University',
+    university: 'Woosuk university',
     imageUrl: '/images/students/usupjonov_saidbek.jpg',
     review: "Усупжонов Саидбек Gachon University magistraturasiga qabul qilindi. Bu uning shaxsiy va kasbiy rivojlanishi uchun yangi imkoniyatlar eshigini ochadi. Саидбекка Koreyadagi o'qishlari mobaynida ajoyib tajribalar va muvaffaqiyatlar tilaymiz."
   },
   {
     name: 'Yuldashalievna Maftuna',
-    university: 'Dankook University',
+    university: 'Woosuk university',
     imageUrl: '/images/students/yuldashalievna_maftuna.jpg',
     review: "Yuldashalievna Maftuna Dankook University magistratura bosqichiga muvaffaqiyatli qabul qilindi. Uning akademik yo'lidagi bu muhim yutug'i, uning oldida yangi bilim va ko'nikmalar eshigini ochadi. Maftunaga kelgusi o'qishlarida ulkan zafarlar tilaymiz."
   },
   {
     name: 'Zokirov Muhammaddiyor',
-    university: 'Hallym University',
+    university: 'Woosuk university',
     imageUrl: '/images/students/zokirov_muhammaddiyor.jpg',
     review: "Zokirov Muhammaddiyor Hallym University magistraturasiga qabul qilinib, Koreyada o'qishdek orzusiga erishdi. Bu uning uchun yangi madaniyat va ta'lim muhitida qimmatli tajriba orttirish imkoniyatidir. Унга kelajakdagi barcha rejalarida omad yor bo'lsin."
   }
